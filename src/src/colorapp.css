@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dee2e6;
+  width: 75%;
+  height: 50px;
+  align-items: center;
+  border-radius: 12px;
+  padding: 60px;
+  /* box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.116); */
+}
+
+.nav-flex-container {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* width: 200px; */
+  /* background-color: #dee2e6; */
+}
+
+.settings-box {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Mooli", sans-serif;
+}
+
+.btn {
+  color: white;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4263eb;
+  cursor: pointer;
+}
+
+.logout {
+  margin-right: 30px;
+}
+
+.color-word-grid {
+  margin-top: 200px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  justify-items: center;
+  gap: 40px;
+}
+
+.color-word {
+  font-size: 150px;
+  font-family: "Mooli", sans-serif;
+  font-weight: bolder;
+}
+
+.user-word-input {
+  width: 200px;
+  height: 35px;
+  border-radius: 12px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+
+.input-flex {
+  display: grid;
+  grid-template-columns: 200px 50px;
+  gap: 5px;
+}
+.word-btn {
+  background-color: #37b24d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.color-container-flex {
+  background-color: #dee2e6;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.colors-grid {
+  margin-top: 50px;
+  background-color: #dee2e6;
+  width: 25%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 40px 40px 40px;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+/* WRoygbivb */
+/* COLOR BTNS */
+.clbtn {
+  border: none; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+.white {
+  background-color: white;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.indigo {
+  background-color: indigo;
+}
+.violet {
+  background-color: violet;
+}
+.black {
+  background-color: black;
+}
+
+.acc-info-box {
+  width: 700px;
+  height: 700px;
+  background-color: red;
+  position: absolute;
+  left: 550px;
+}

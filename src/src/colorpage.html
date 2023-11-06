@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="colorapp.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../dist/color.js" defer></script>
+    <title>Color App</title>
+  </head>
+  <body>
+    <div class="nav-flex-container">
+      <nav>
+        <h1>Color Picker</h1>
+        <div class="settings-box">
+          <button class="btn acc-info-btn">Account Info</button>
+          <button class="btn logout">Logout</button>
+        </div>
+      </nav>
+    </div>
+    <!-- <div class="acc-info-box"></div> -->
+    <div class="color-word-grid">
+      <div class="color-word">Pick A Color</div>
+      <div class="input-flex">
+        <input
+          class="user-word-input"
+          placeholder="Change the Word"
+          maxlength="10"
+        />
+        <button class="word-btn">&rarr;</button>
+      </div>
+    </div>
+    <div class="color-container-flex">
+      <div class="colors-grid">
+        <button class="clbtn white"></button>
+        <!-- <input class="color-input" type="color" /> -->
+        <button class="clbtn red"></button>
+        <button class="clbtn orange"></button>
+        <button class="clbtn yellow"></button>
+        <button class="clbtn green"></button>
+        <button class="clbtn blue"></button>
+        <button class="clbtn indigo"></button>
+        <button class="clbtn violet"></button>
+        <button class="clbtn black"></button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="color.css" />
+    <script src="../dist/color.js" defer></script>
+    <title>Color</title>
+  </head>
+  <body>
+    <div class="first-load-screen load-in">
+      <div class="create-window create-hidden">
+        <button class="x">X</button>
+        <div class="create-grid">
+          <input
+            class="create-user-input"
+            type="text"
+            placeholder="Username"
+            maxlength="20"
+          />
+          <div class="user-error-msg">
+            Username can only contain letters,"_" or, "-"
+          </div>
+          <input
+            class="create-number-input"
+            type="text"
+            placeholder="Phone Number"
+            maxlength="10"
+          />
+          <div class="num-error-msg"></div>
+          <input
+            class="create-pass-input"
+            type="password"
+            placeholder="Password"
+            maxlength="10"
+          />
+          <div class="pass-error-msg"></div>
+          <input class="create-email-input" type="text" placeholder="Email" />
+          <div class="email-error-msg"></div>
+          <button class="create-window-btn">Create</button>
+        </div>
+      </div>
+      <div class="left-container">
+        <div class="welcome-txt">
+          <h1 class="color-picker-msg">color picker</h1>
+          <div class="opening-msg">The best color picking app out there.</div>
+        </div>
+      </div>
+
+      <div class="right-container">
+        <form>
+          <nav>
+            <div class="grid-container">
+              <input
+                class="username-input"
+                type="text"
+                placeholder="Username or Phone Number"
+              />
+              <input
+                class="password-input"
+                type="password"
+                placeholder="Password"
+              />
+              <div class="error-message"></div>
+              <button class="btn login-btn">Log In</button>
+              <button class="btn create-btn">Create An Account</button>
+            </div>
+          </nav>
+
+          <div class="login-window"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
